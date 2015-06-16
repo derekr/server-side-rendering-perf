@@ -1,0 +1,23 @@
+{
+  "name": "nw-test-perf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^5.5.8",
+    "cuid": "^1.2.5",
+    "deku": "^0.4.5",
+    "express": "^4.12.4",
+    "fibers": "^1.0.5",
+    "parallelshell": "^1.1.1",
+    "react": "^0.13.3",
+    "react-async": "^2.1.0",
+    "uuid": "^2.0.1",
+    "xrange": "^1.0.1"
+  }
+}
