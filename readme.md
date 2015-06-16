@@ -4,7 +4,7 @@ Trying to get baseline for various server-side rendering solutions.
 
 # installation
 
-```
+```sh
 git clone git@github.com:derekr/server-side-rendering-perf.git
 cd server-side-rendering-perf
 npm install
@@ -13,22 +13,22 @@ npm start
 
 Each route should render the same nodes or amount of nodes:
 
-```
+```sh
 # 300 nodes using `React.renderToString`
 /react
 ```
 
-```
+```sh
 # 300 nodes using `ReacyAsync.renderToStringAsync`
 /react-async
 ```
 
-```
+```sh
 # 300 nodes using `React.renderToStaticMarkup`
 /react-static-markup
 ```
 
-```
+```sh
 # 300 nodes using `deku.renderString`
 /deku
 ```
